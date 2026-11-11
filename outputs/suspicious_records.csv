@@ -1,0 +1,156 @@
+,study_hours_per_day,attendance_percent,assignment_completion_percent,sleep_hours,exam_score,flagged_by,iqr_reason,isolation_score
+1162,0.8,38.0,27.0,8.3,97.9,Both,"attendance_percent=38.0 outside [49.2, 100.9]; assignment_completion_percent=27.0 outside [47.6, 102.5]",0.69
+1972,0.7,38.7,27.0,7.6,96.5,Both,"attendance_percent=38.7 outside [49.2, 100.9]; assignment_completion_percent=27.0 outside [47.6, 102.5]",0.68
+411,1.1,43.5,25.6,5.4,94.7,Both,"attendance_percent=43.5 outside [49.2, 100.9]; assignment_completion_percent=25.6 outside [47.6, 102.5]",0.667
+1665,0.7,51.5,26.2,6.5,96.9,Both,"assignment_completion_percent=26.2 outside [47.6, 102.5]",0.666
+1189,1.6,47.6,52.9,8.0,134.7,Both,"attendance_percent=47.6 outside [49.2, 100.9]; exam_score=134.7 outside [45.7, 100.9]",0.659
+1039,0.5,41.0,36.7,5.6,92.6,Both,"attendance_percent=41.0 outside [49.2, 100.9]; assignment_completion_percent=36.7 outside [47.6, 102.5]",0.658
+568,0.7,38.6,44.4,6.3,95.5,Both,"attendance_percent=38.6 outside [49.2, 100.9]; assignment_completion_percent=44.4 outside [47.6, 102.5]",0.656
+1439,1.3,51.0,29.6,5.4,96.8,Both,"assignment_completion_percent=29.6 outside [47.6, 102.5]",0.656
+281,20.8,62.2,53.3,5.7,60.9,Both,"study_hours_per_day=20.8 outside [-0.3, 8.2]",0.655
+650,1.3,47.4,27.1,8.2,96.4,Both,"attendance_percent=47.4 outside [49.2, 100.9]; assignment_completion_percent=27.1 outside [47.6, 102.5]",0.655
+1779,1.3,41.3,43.8,9.0,96.4,Both,"attendance_percent=41.3 outside [49.2, 100.9]; assignment_completion_percent=43.8 outside [47.6, 102.5]",0.653
+1897,0.5,40.2,28.7,6.9,91.3,Both,"attendance_percent=40.2 outside [49.2, 100.9]; assignment_completion_percent=28.7 outside [47.6, 102.5]",0.649
+1601,0.8,48.7,30.0,6.3,95.0,Both,"attendance_percent=48.7 outside [49.2, 100.9]; assignment_completion_percent=30.0 outside [47.6, 102.5]",0.649
+1402,1.1,47.9,27.9,5.4,91.6,Both,"attendance_percent=47.9 outside [49.2, 100.9]; assignment_completion_percent=27.9 outside [47.6, 102.5]",0.648
+1216,1.3,40.0,33.6,5.4,90.3,Both,"attendance_percent=40.0 outside [49.2, 100.9]; assignment_completion_percent=33.6 outside [47.6, 102.5]",0.648
+183,0.9,40.3,41.3,8.9,88.5,Both,"attendance_percent=40.3 outside [49.2, 100.9]; assignment_completion_percent=41.3 outside [47.6, 102.5]",0.648
+383,1.2,40.0,30.8,7.1,95.8,Both,"attendance_percent=40.0 outside [49.2, 100.9]; assignment_completion_percent=30.8 outside [47.6, 102.5]",0.647
+564,1.3,44.7,31.1,7.8,95.8,Both,"attendance_percent=44.7 outside [49.2, 100.9]; assignment_completion_percent=31.1 outside [47.6, 102.5]",0.647
+1666,0.5,39.3,36.9,7.5,90.7,Both,"attendance_percent=39.3 outside [49.2, 100.9]; assignment_completion_percent=36.9 outside [47.6, 102.5]",0.646
+1817,1.3,37.7,35.5,8.8,88.6,Both,"attendance_percent=37.7 outside [49.2, 100.9]; assignment_completion_percent=35.5 outside [47.6, 102.5]",0.644
+34,1.5,40.9,36.7,7.4,98.0,Both,"attendance_percent=40.9 outside [49.2, 100.9]; assignment_completion_percent=36.7 outside [47.6, 102.5]",0.644
+1380,1.0,49.8,38.8,4.7,88.4,Both,"assignment_completion_percent=38.8 outside [47.6, 102.5]",0.643
+2162,1.2,38.2,28.5,6.4,92.8,Both,"attendance_percent=38.2 outside [49.2, 100.9]; assignment_completion_percent=28.5 outside [47.6, 102.5]",0.643
+457,1.3,54.8,30.6,5.3,94.0,Both,"assignment_completion_percent=30.6 outside [47.6, 102.5]",0.641
+1470,0.9,44.7,32.1,7.1,93.4,Both,"attendance_percent=44.7 outside [49.2, 100.9]; assignment_completion_percent=32.1 outside [47.6, 102.5]",0.639
+2132,1.0,35.7,32.8,6.7,93.0,Both,"attendance_percent=35.7 outside [49.2, 100.9]; assignment_completion_percent=32.8 outside [47.6, 102.5]",0.639
+404,1.0,41.7,26.4,7.1,91.0,Both,"attendance_percent=41.7 outside [49.2, 100.9]; assignment_completion_percent=26.4 outside [47.6, 102.5]",0.639
+259,0.9,44.5,39.5,7.3,95.5,Both,"attendance_percent=44.5 outside [49.2, 100.9]; assignment_completion_percent=39.5 outside [47.6, 102.5]",0.638
+592,1.2,43.5,31.0,6.6,94.7,Both,"attendance_percent=43.5 outside [49.2, 100.9]; assignment_completion_percent=31.0 outside [47.6, 102.5]",0.637
+2128,1.6,59.9,55.2,15.5,49.5,Both,"sleep_hours=15.5 outside [4.5, 9.7]",0.633
+1037,1.2,49.9,30.3,6.5,95.4,Both,"assignment_completion_percent=30.3 outside [47.6, 102.5]",0.633
+2167,0.9,52.7,39.9,8.0,94.9,Both,"assignment_completion_percent=39.9 outside [47.6, 102.5]",0.63
+350,1.1,43.6,30.9,7.8,88.6,Both,"attendance_percent=43.6 outside [49.2, 100.9]; assignment_completion_percent=30.9 outside [47.6, 102.5]",0.629
+1481,1.5,61.4,52.8,8.2,130.8,Both,"exam_score=130.8 outside [45.7, 100.9]",0.627
+1360,23.7,96.2,92.5,7.5,86.4,Both,"study_hours_per_day=23.7 outside [-0.3, 8.2]",0.627
+2176,0.8,44.3,36.2,7.1,88.9,Both,"attendance_percent=44.3 outside [49.2, 100.9]; assignment_completion_percent=36.2 outside [47.6, 102.5]",0.623
+791,1.5,46.7,39.1,6.6,96.0,Both,"attendance_percent=46.7 outside [49.2, 100.9]; assignment_completion_percent=39.1 outside [47.6, 102.5]",0.621
+1334,1.0,51.8,28.7,7.2,91.8,Both,"assignment_completion_percent=28.7 outside [47.6, 102.5]",0.621
+159,21.8,57.3,62.7,7.2,71.0,Both,"study_hours_per_day=21.8 outside [-0.3, 8.2]",0.619
+681,7.1,91.7,99.8,10.0,99.1,Both,"sleep_hours=10.0 outside [4.5, 9.7]",0.617
+1291,1.8,72.4,87.8,6.2,143.8,Both,"exam_score=143.8 outside [45.7, 100.9]",0.616
+1737,1.0,48.6,35.5,6.5,91.4,Both,"attendance_percent=48.6 outside [49.2, 100.9]; assignment_completion_percent=35.5 outside [47.6, 102.5]",0.615
+774,0.5,53.6,43.8,7.9,89.3,Both,"assignment_completion_percent=43.8 outside [47.6, 102.5]",0.615
+707,6.2,90.0,95.1,15.5,88.5,Both,"sleep_hours=15.5 outside [4.5, 9.7]",0.611
+1473,1.1,45.4,54.2,7.9,41.6,Both,"attendance_percent=45.4 outside [49.2, 100.9]; exam_score=41.6 outside [45.7, 100.9]",0.611
+641,1.5,47.7,36.0,7.5,90.4,Both,"attendance_percent=47.7 outside [49.2, 100.9]; assignment_completion_percent=36.0 outside [47.6, 102.5]",0.609
+1868,1.4,44.3,44.1,7.7,92.3,Both,"attendance_percent=44.3 outside [49.2, 100.9]; assignment_completion_percent=44.1 outside [47.6, 102.5]",0.608
+179,1.1,53.0,42.4,6.8,96.0,Both,"assignment_completion_percent=42.4 outside [47.6, 102.5]",0.606
+1482,7.1,70.4,66.4,16.1,85.2,Both,"sleep_hours=16.1 outside [4.5, 9.7]",0.606
+1184,8.4,98.2,91.4,8.4,100.0,Both,"study_hours_per_day=8.4 outside [-0.3, 8.2]",0.605
+2164,1.4,50.9,43.7,5.9,93.6,Both,"assignment_completion_percent=43.7 outside [47.6, 102.5]",0.603
+1769,3.2,78.1,61.6,6.4,149.7,Both,"exam_score=149.7 outside [45.7, 100.9]",0.6
+208,7.1,97.4,92.4,5.7,52.9,Isolation Forest only,,0.598
+1939,1.0,52.4,38.0,6.7,90.9,Both,"assignment_completion_percent=38.0 outside [47.6, 102.5]",0.597
+2078,18.3,73.8,92.2,6.9,70.5,Both,"study_hours_per_day=18.3 outside [-0.3, 8.2]",0.597
+1251,8.1,97.1,87.6,6.0,52.7,Isolation Forest only,,0.594
+857,7.2,97.7,94.3,7.7,52.6,Isolation Forest only,,0.594
+18,6.9,90.9,100.0,4.9,98.9,Isolation Forest only,,0.593
+1522,1.1,48.2,55.4,7.8,44.6,Both,"attendance_percent=48.2 outside [49.2, 100.9]; exam_score=44.6 outside [45.7, 100.9]",0.593
+1260,5.7,99.4,100.0,5.5,95.9,Isolation Forest only,,0.593
+84,8.4,97.6,87.7,8.3,100.0,Both,"study_hours_per_day=8.4 outside [-0.3, 8.2]",0.592
+1723,2.4,84.1,87.1,18.6,76.7,Both,"sleep_hours=18.6 outside [4.5, 9.7]",0.591
+456,23.0,78.1,66.6,7.5,77.6,Both,"study_hours_per_day=23.0 outside [-0.3, 8.2]",0.587
+1248,2.7,49.2,47.5,6.5,45.1,Both,"attendance_percent=49.2 outside [49.2, 100.9]; assignment_completion_percent=47.5 outside [47.6, 102.5]; exam_score=45.1 outside [45.7, 100.9]",0.586
+458,3.6,90.8,85.6,16.3,69.9,Both,"sleep_hours=16.3 outside [4.5, 9.7]",0.585
+606,8.5,89.1,88.8,5.5,53.3,Both,"study_hours_per_day=8.5 outside [-0.3, 8.2]",0.585
+950,5.4,69.1,68.6,6.9,148.8,Both,"exam_score=148.8 outside [45.7, 100.9]",0.584
+1910,1.6,53.2,61.4,7.7,115.6,Both,"exam_score=115.6 outside [45.7, 100.9]",0.584
+1915,4.5,82.4,97.9,6.3,124.7,Both,"exam_score=124.7 outside [45.7, 100.9]",0.584
+1726,0.5,56.6,61.1,5.1,42.2,Both,"exam_score=42.2 outside [45.7, 100.9]",0.583
+25,22.6,82.6,72.2,8.4,78.1,Both,"study_hours_per_day=22.6 outside [-0.3, 8.2]",0.581
+786,7.6,98.1,94.8,6.4,97.4,Isolation Forest only,,0.581
+2119,7.9,92.2,90.8,6.7,53.0,Isolation Forest only,,0.58
+1073,6.2,99.2,97.6,7.8,100.0,Isolation Forest only,,0.58
+337,2.9,62.7,60.6,7.2,136.3,Both,"exam_score=136.3 outside [45.7, 100.9]",0.58
+1617,7.7,95.3,91.8,6.9,53.0,Isolation Forest only,,0.578
+372,7.8,94.3,89.3,6.5,52.6,Isolation Forest only,,0.577
+1125,0.5,48.9,60.8,6.9,47.2,Both,"attendance_percent=48.9 outside [49.2, 100.9]",0.577
+1917,0.5,52.8,56.7,7.1,46.1,Isolation Forest only,,0.576
+576,8.0,93.7,84.0,7.3,52.8,Isolation Forest only,,0.574
+1965,7.9,86.0,94.0,5.9,53.4,Isolation Forest only,,0.573
+269,8.4,93.5,83.0,5.5,57.2,Both,"study_hours_per_day=8.4 outside [-0.3, 8.2]",0.573
+923,5.3,91.4,83.1,15.5,81.8,Both,"sleep_hours=15.5 outside [4.5, 9.7]",0.572
+824,19.6,70.5,64.1,7.8,72.0,Both,"study_hours_per_day=19.6 outside [-0.3, 8.2]",0.571
+346,4.9,145.5,68.6,8.0,90.4,Both,"attendance_percent=145.5 outside [49.2, 100.9]",0.57
+54,7.8,96.8,90.5,7.6,55.0,Isolation Forest only,,0.57
+1865,20.4,72.6,72.5,6.9,70.8,Both,"study_hours_per_day=20.4 outside [-0.3, 8.2]",0.569
+1340,8.4,87.6,77.6,8.8,100.0,Both,"study_hours_per_day=8.4 outside [-0.3, 8.2]",0.567
+36,8.2,86.1,90.9,5.1,58.5,Both,"study_hours_per_day=8.2 outside [-0.3, 8.2]",0.567
+793,4.8,80.4,77.0,7.8,144.1,Both,"exam_score=144.1 outside [45.7, 100.9]",0.566
+806,1.2,52.4,60.8,8.5,46.2,Isolation Forest only,,0.566
+1040,6.7,87.2,93.6,5.8,52.1,Isolation Forest only,,0.565
+1010,0.6,50.9,60.1,6.4,51.5,Isolation Forest only,,0.565
+124,1.4,67.3,50.0,9.6,54.6,Isolation Forest only,,0.564
+902,8.1,86.6,94.1,7.3,54.3,Isolation Forest only,,0.564
+930,1.3,56.3,57.5,5.4,46.4,Isolation Forest only,,0.563
+2010,1.2,54.8,55.0,8.2,52.0,Isolation Forest only,,0.562
+531,6.6,95.2,88.7,8.1,53.2,Isolation Forest only,,0.561
+366,0.5,53.9,61.1,5.3,52.6,Isolation Forest only,,0.561
+1131,8.2,89.2,83.4,5.7,55.0,Both,"study_hours_per_day=8.2 outside [-0.3, 8.2]",0.561
+1436,3.7,77.2,71.8,7.2,140.8,Both,"exam_score=140.8 outside [45.7, 100.9]",0.559
+1090,19.0,76.5,79.2,7.9,70.9,Both,"study_hours_per_day=19.0 outside [-0.3, 8.2]",0.558
+65,1.0,47.1,57.8,5.9,54.8,Both,"attendance_percent=47.1 outside [49.2, 100.9]",0.558
+808,2.8,79.4,83.8,16.6,77.1,Both,"sleep_hours=16.6 outside [4.5, 9.7]",0.558
+1058,1.5,59.3,52.6,9.0,52.3,Isolation Forest only,,0.558
+1440,4.3,69.2,80.0,19.4,72.9,Both,"sleep_hours=19.4 outside [4.5, 9.7]",0.557
+1999,7.9,87.4,92.1,6.4,54.5,Isolation Forest only,,0.557
+755,2.9,84.1,76.5,16.2,69.4,Both,"sleep_hours=16.2 outside [4.5, 9.7]",0.557
+1145,8.2,86.8,81.0,7.9,52.8,Both,"study_hours_per_day=8.2 outside [-0.3, 8.2]",0.556
+1776,7.5,89.7,93.1,6.8,53.4,Isolation Forest only,,0.556
+1775,1.1,55.0,74.4,4.0,56.6,IQR only,"sleep_hours=4.0 outside [4.5, 9.7]",0.556
+1554,2.3,49.6,45.2,7.7,57.3,IQR only,"assignment_completion_percent=45.2 outside [47.6, 102.5]",0.555
+1621,3.6,67.6,71.9,6.8,133.6,IQR only,"exam_score=133.6 outside [45.7, 100.9]",0.549
+1618,0.6,70.1,47.0,8.0,57.0,IQR only,"assignment_completion_percent=47.0 outside [47.6, 102.5]",0.547
+1195,8.8,84.8,88.1,6.7,97.4,IQR only,"study_hours_per_day=8.8 outside [-0.3, 8.2]",0.545
+2048,4.1,61.0,39.3,5.1,65.2,IQR only,"assignment_completion_percent=39.3 outside [47.6, 102.5]",0.544
+71,0.9,47.2,64.2,8.0,54.5,IQR only,"attendance_percent=47.2 outside [49.2, 100.9]",0.543
+2002,3.6,134.1,68.8,7.9,68.8,IQR only,"attendance_percent=134.1 outside [49.2, 100.9]",0.542
+1753,6.4,74.7,39.7,5.3,76.9,IQR only,"assignment_completion_percent=39.7 outside [47.6, 102.5]",0.54
+1751,5.2,75.9,71.0,15.2,82.1,IQR only,"sleep_hours=15.2 outside [4.5, 9.7]",0.534
+764,4.3,136.7,69.1,6.0,72.1,IQR only,"attendance_percent=136.7 outside [49.2, 100.9]",0.533
+190,8.2,93.6,87.4,6.9,89.0,IQR only,"study_hours_per_day=8.2 outside [-0.3, 8.2]",0.533
+79,0.5,64.9,72.1,7.3,42.3,IQR only,"exam_score=42.3 outside [45.7, 100.9]",0.529
+111,5.9,73.4,76.4,14.4,74.9,IQR only,"sleep_hours=14.4 outside [4.5, 9.7]",0.528
+1978,2.3,107.3,92.3,7.1,68.5,IQR only,"attendance_percent=107.3 outside [49.2, 100.9]",0.523
+273,5.1,126.8,72.9,5.9,74.7,IQR only,"attendance_percent=126.8 outside [49.2, 100.9]",0.521
+1969,2.5,51.5,46.2,6.4,61.3,IQR only,"assignment_completion_percent=46.2 outside [47.6, 102.5]",0.521
+13,2.9,113.9,73.8,7.4,57.6,IQR only,"attendance_percent=113.9 outside [49.2, 100.9]",0.52
+1127,3.2,110.8,61.8,6.6,69.5,IQR only,"attendance_percent=110.8 outside [49.2, 100.9]",0.514
+72,2.9,125.3,70.8,7.2,67.4,IQR only,"attendance_percent=125.3 outside [49.2, 100.9]",0.513
+838,4.6,63.1,59.6,4.3,63.5,IQR only,"sleep_hours=4.3 outside [4.5, 9.7]",0.509
+767,3.5,55.9,46.4,7.9,70.1,IQR only,"assignment_completion_percent=46.4 outside [47.6, 102.5]",0.507
+864,4.5,87.0,93.5,4.0,83.4,IQR only,"sleep_hours=4.0 outside [4.5, 9.7]",0.506
+762,3.1,60.3,68.0,9.8,57.6,IQR only,"sleep_hours=9.8 outside [4.5, 9.7]",0.5
+2057,2.1,63.5,73.5,4.4,59.3,IQR only,"sleep_hours=4.4 outside [4.5, 9.7]",0.499
+369,4.6,67.4,72.1,7.8,108.0,IQR only,"exam_score=108.0 outside [45.7, 100.9]",0.491
+178,2.9,58.7,70.8,4.4,67.2,IQR only,"sleep_hours=4.4 outside [4.5, 9.7]",0.487
+1818,3.8,89.9,82.0,4.4,82.1,IQR only,"sleep_hours=4.4 outside [4.5, 9.7]",0.485
+886,3.2,84.2,83.6,4.0,83.0,IQR only,"sleep_hours=4.0 outside [4.5, 9.7]",0.482
+2115,2.9,79.8,67.4,9.8,65.4,IQR only,"sleep_hours=9.8 outside [4.5, 9.7]",0.475
+69,3.1,84.7,69.5,4.3,72.9,IQR only,"sleep_hours=4.3 outside [4.5, 9.7]",0.474
+365,5.1,64.3,69.7,4.2,73.9,IQR only,"sleep_hours=4.2 outside [4.5, 9.7]",0.474
+378,3.8,79.3,60.8,4.4,70.3,IQR only,"sleep_hours=4.4 outside [4.5, 9.7]",0.473
+748,5.1,85.9,74.4,10.0,80.5,IQR only,"sleep_hours=10.0 outside [4.5, 9.7]",0.472
+1316,5.3,73.9,79.4,4.3,67.0,IQR only,"sleep_hours=4.3 outside [4.5, 9.7]",0.472
+2076,4.0,78.9,68.7,4.2,80.9,IQR only,"sleep_hours=4.2 outside [4.5, 9.7]",0.469
+1595,5.0,67.8,64.1,4.4,69.0,IQR only,"sleep_hours=4.4 outside [4.5, 9.7]",0.469
+1785,8.2,73.8,74.9,6.7,87.4,IQR only,"study_hours_per_day=8.2 outside [-0.3, 8.2]",0.467
+2137,2.1,68.5,46.2,6.6,65.9,IQR only,"assignment_completion_percent=46.2 outside [47.6, 102.5]",0.466
+1616,2.6,68.2,75.4,4.3,67.1,IQR only,"sleep_hours=4.3 outside [4.5, 9.7]",0.463
+1649,2.9,78.1,71.0,4.0,71.3,IQR only,"sleep_hours=4.0 outside [4.5, 9.7]",0.462
+2111,4.0,80.9,85.5,4.4,82.1,IQR only,"sleep_hours=4.4 outside [4.5, 9.7]",0.46
+1841,3.3,67.1,66.9,4.2,68.9,IQR only,"sleep_hours=4.2 outside [4.5, 9.7]",0.459
+947,3.9,78.9,72.7,10.0,68.6,IQR only,"sleep_hours=10.0 outside [4.5, 9.7]",0.449
+1700,4.3,73.6,76.1,9.7,72.0,IQR only,"sleep_hours=9.7 outside [4.5, 9.7]",0.43

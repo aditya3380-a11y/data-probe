@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f1f3f2">
+  <title>Data Probe — Student Data Explorer</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css', v=29) }}">
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="Data Probe home">
+        <span class="brand-mark">DP</span>
+        <span class="brand-name">Data Probe</span>
+      </a>
+      <div class="topbar-right">
+        <nav class="site-nav" aria-label="Main menu">
+          <button class="nav-link" type="button" data-page="overview" aria-current="page">Overview</button>
+          <button class="nav-link" type="button" data-page="map">3D map</button>
+          <button class="nav-link" type="button" data-page="records">Rows</button>
+          <button class="nav-link" type="button" data-page="report">Report</button>
+          <button class="nav-link" type="button" data-page="guide">How it works</button>
+          <button class="nav-link" type="button" data-page="about">About me</button>
+        </nav>
+        <span class="local-pill"><span></span> Runs on this computer</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-line"></span> REAL DATA. CLEARER SIGNALS.</div>
+          <h1>Look closer.<br><em>Find the signal.</em></h1>
+          <p>Explore real student records, compare two anomaly detectors, and investigate unusual patterns without mistaking a flag for a verdict.</p>
+        </div>
+        <div class="hero-art">
+          <div class="data-art-card">
+            <div class="data-art-heading"><span>UCI STUDENT PERFORMANCE</span><span>01 / 03</span></div>
+            <svg class="data-cube" viewBox="0 0 320 230" role="img" aria-label="Three-dimensional scatter plot illustration">
+              <polygon points="65,74 180,36 265,82 149,121" fill="#ece6fb"/>
+              <polygon points="65,74 149,121 149,198 65,151" fill="#fff0e3"/>
+              <polygon points="149,121 265,82 265,158 149,198" fill="#e0f0f0"/>
+              <g fill="none" stroke="#c0b8d2" stroke-width="1">
+                <path d="M94 84 179 49 236 79M122 96 207 61M65 100 149 146 265 108M65 126 149 172 265 132M94 83v63m29-54v63m28-35v77m29-87v77m29-87v77m28-86v77"/>
+                <path d="m65 151 84 47 116-40"/>
+                <path d="M149 198V121M65 151V74M265 158V82"/>
+              </g>
+              <g stroke="#fffdf8" stroke-width="2">
+                <circle cx="101" cy="106" r="6" fill="#7654c8"/>
+                <circle cx="131" cy="131" r="6" fill="#ff642d"/>
+                <circle cx="156" cy="112" r="6" fill="#288b98"/>
+                <circle cx="180" cy="145" r="6" fill="#7654c8"/>
+                <circle cx="205" cy="101" r="6" fill="#ff642d"/>
+                <circle cx="224" cy="130" r="6" fill="#d74f9d"/>
+                <circle cx="119" cy="159" r="6" fill="#d74f9d"/>
+                <circle cx="192" cy="174" r="6" fill="#288b98"/>
+              </g>
+              <g fill="#686d66" font-family="Segoe UI, sans-serif" font-size="11">
+                <text x="150" y="221">Age</text>
+                <text x="24" y="69">Study time</text>
+                <text x="254" y="72">Final grade</text>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </section>
+      <section class="page-panel about-page hidden" data-page-panel="about">
+        <div class="about-banner">
+          <div class="about-copy">
+            <div class="section-kicker">THE PERSON BEHIND THE PROJECT</div>
+            <h3>Hi, I’m <em>Aditya Pandey.</em></h3>
+            <p>I’m a student developer interested in AI, machine learning, and building practical tools. I created Data Probe to make data-quality checks and anomaly detection easier to explore and understand.</p>
+            <div class="social-links" aria-label="Connect with Aditya">
+              <a class="social-link social-instagram" href="https://www.instagram.com/adi.codes09/" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">◎</span> Instagram <span aria-hidden="true">↗</span></a>
+              <a class="social-link social-linkedin" href="https://www.linkedin.com/in/aditya-pandey-a80619426/" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">in</span> LinkedIn <span aria-hidden="true">↗</span></a>
+              <a class="social-link social-github" href="https://github.com/aditya3380-a11y" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">⌘</span> GitHub <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+          <div class="about-photo-frame">
+            <img class="about-photo" src="{{ url_for('static', filename='profile-photo.webp') }}" alt="Aditya Pandey">
+            <span class="about-photo-tag">STUDENT · BUILDER · CURIOUS</span>
+          </div>
+        </div>
+        <aside class="about-qr-card">
+          <div>
+            <div class="section-kicker">TAKE A LOOK AROUND</div>
+            <h4>Find me on GitHub</h4>
+            <p>Scan the code to open my GitHub profile and explore more projects.</p>
+          </div>
+          <a class="qr-link" href="https://github.com/aditya3380-a11y" target="_blank" rel="noopener noreferrer" aria-label="Open Aditya Pandey's GitHub profile">
+            <img src="{{ url_for('profile_qr') }}" alt="QR code linking to Aditya Pandey's GitHub profile">
+          </a>
+        </aside>
+        <section class="about-project" aria-label="Project learnings and technology">
+          <div class="about-project-heading">
+            <h3>What I <em>learned</em></h3>
+            <p>My project, <strong>DATA PROBE – Intelligent Dataset Investigation &amp; Anomaly Detection System</strong>, investigates unusual patterns, suspicious records, missing values, duplicates, and data inconsistencies.</p>
+          </div>
+          <div class="about-project-grid">
+            <article class="about-project-card about-learnings-card">
+              <div class="section-kicker">MY PROJECT TAKEAWAYS</div>
+              <h4>From raw data to useful findings</h4>
+              <ul>
+                <li>Built practical experience in Python, modular development, NumPy arrays, Pandas DataFrames, preprocessing, data cleaning, missing-value handling, duplicate detection, descriptive statistics, IQR outlier detection, and statistical analysis.</li>
+                <li>Learned unsupervised machine-learning fundamentals, feature selection, Isolation Forest, model training and prediction, contamination settings, and how statistical and ML detectors differ.</li>
+                <li>Practiced evaluation with precision, recall, F1-score, and confusion matrices, and learned about false positives, false negatives, data leakage, and model limitations.</li>
+                <li>Worked with CSV files, interactive dashboards, visualizations, automated reports, debugging, testing, and Git/GitHub version control.</li>
+                <li>Put the complete data workflow together—from raw-data processing and anomaly detection to model comparison, performance evaluation, and reporting.</li>
+              </ul>
+            </article>
+            <article class="about-project-card about-tech-card">
+              <div class="section-kicker">TECHNOLOGY I USED</div>
+              <h4>Tools behind the project</h4>
+              <div class="tech-chips" aria-label="Technology used">
+                <span>Python</span><span>NumPy</span><span>Pandas</span>
+                <span>scikit-learn</span><span>Matplotlib</span><span>Flask</span>
+                <span>JavaScript</span><span>HTML</span><span>CSS</span>
+                <span>ReportLab</span><span>Ollama</span><span>Git &amp; GitHub</span>
+              </div>
+            </article>
+          </div>
+        </section>
+      </section>
+
+      <section class="workspace">
+        <aside class="control-panel">
+          <h2>Pick a dataset</h2>
+          <p class="panel-intro">Pick one to get started. Switching datasets runs the analysis again.</p>
+
+          <div class="dataset-options">
+            <label class="dataset-option selected" data-source-option="synthetic">
+              <input type="radio" name="source" value="synthetic" checked>
+              <span class="option-icon icon-spark">✦</span>
+              <span class="option-copy"><strong>Practice dataset</strong><small>2,200 simulated rows · labels included</small></span>
+              <span class="radio-dot"></span>
+            </label>
+            <label class="dataset-option" data-source-option="uci">
+              <input type="radio" name="source" value="uci">
+              <span class="option-icon icon-book">↗</span>
+              <span class="option-copy"><strong>UCI student data</strong><small>Math grades · 395 real students</small></span>
+              <span class="radio-dot"></span>
+            </label>
+            <label class="dataset-option" data-source-option="upload">
+              <input type="radio" name="source" value="upload">
+              <span class="option-icon icon-upload">↑</span>
+              <span class="option-copy"><strong>Upload a CSV</strong><small>Your data stays on this device</small></span>
+              <span class="radio-dot"></span>
+            </label>
+          </div>
+
+          <div class="upload-zone hidden" id="upload-zone">
+            <input id="csv-file" type="file" accept=".csv,text/csv">
+            <span class="upload-symbol">↑</span>
+            <span id="file-name">Choose your CSV file</span>
+            <small>Comma or semicolon · up to 10 MB</small>
+          </div>
+
+          <div class="control-heading">
+            <label for="k-slider">IQR fence width <span class="info" title="IQR finds values far from the middle half of the data. A wider fence usually flags fewer rows.">i</span></label>
+            <output id="k-value">1.5</output>
+          </div>
+          <input class="range range-green" id="k-slider" type="range" min="0.5" max="3" value="1.5" step="0.1">
+          <div class="range-hints"><span>Flags more</span><span>Flags fewer</span></div>
+
+          <div class="control-heading contamination-heading">
+            <label for="contamination-slider">Isolation Forest target <span class="info" title="This is a setting you choose, not a measured fact about your data. The forest uses it to set how many rows to flag.">i</span></label>
+            <output id="contamination-value">5%</output>
+          </div>
+          <input class="range range-orange" id="contamination-slider" type="range" min="0.01" max="0.5" value="0.05" step="0.01">
+          <p class="control-hint">A starting assumption for the forest, not a confirmed outlier rate.</p>
+          <div class="range-hints"><span>Fewer flags</span><span>More flags</span></div>
+
+          <button class="run-button" id="run-button">
+            <span>Run investigation</span><span class="button-arrow">↗</span>
+          </button>
+          <p class="privacy-note"><span>▣</span> Your data stays on this computer.</p>
+        </aside>
+
+        <section class="results" aria-live="polite">
+          <div class="results-header">
+            <div>
+              <h2>What stands out</h2>
+            </div>
+            <div class="run-status"><span class="status-dot"></span><span id="status-text">Ready to analyze</span></div>
+          </div>
+
+          <div class="error-banner hidden" id="error-banner" role="alert"></div>
+          <div class="empty-state hidden" id="empty-state">
+            <div class="empty-orbit">D<span>?</span></div>
+            <h3>Your next discovery starts here.</h3>
+            <p>Select a dataset, then run the investigation to see its health and suspicious records.</p>
+          </div>
+
+          <div id="report" class="hidden">
+            <section class="page-panel" data-page-panel="overview">
+            <div class="dataset-summary">
+              <span class="summary-icon">⌁</span>
+              <span><strong id="dataset-name">Dataset</strong><small id="dataset-size">0 rows</small></span>
+              <span class="summary-tag" id="label-tag">LABELED</span>
+            </div>
+
+            <div class="metric-grid">
+              <article class="metric-card metric-missing"><span class="metric-label">Rows with blanks</span><strong id="missing-metric">—</strong><span class="metric-foot">at least one empty value</span><span class="metric-mark mark-coral">↘</span></article>
+              <article class="metric-card metric-duplicates"><span class="metric-label">Extra duplicate rows</span><strong id="duplicate-metric">—</strong><span class="metric-foot">copies after the first match</span><span class="metric-mark mark-blue">⧉</span></article>
+              <article class="metric-card metric-ranges"><span class="metric-label">Outside checked ranges</span><strong id="range-metric">—</strong><span class="metric-foot">only for columns with known limits</span><span class="metric-mark mark-orange">⌁</span></article>
+              <article class="metric-card metric-highlight"><span class="metric-label">Flagged for review</span><strong id="suspect-metric">—</strong><span class="metric-foot">by at least one detector</span><span class="metric-mark mark-green">✳</span></article>
+            </div>
+
+            <details class="health-details">
+              <summary>What did the data checks find?</summary>
+              <div id="health-details-content"></div>
+            </details>
+
+            <p class="interpretation-note"><strong>A flag is a starting point, not a verdict.</strong> The detectors find unusual numeric patterns; they cannot tell whether a record is actually wrong.</p>
+
+            <div class="detector-strip">
+              <div class="detector-title"><span class="section-kicker">What each method picked up</span><span class="detector-caption" id="detector-caption">IQR k=1.5 · Isolation Forest 5%</span></div>
+              <div class="detector-stats">
+                <div><span class="detector-dot dot-green"></span><span>IQR</span><strong id="iqr-count">—</strong></div>
+                <div><span class="detector-dot dot-orange"></span><span>Isolation Forest</span><strong id="if-count">—</strong></div>
+                <div><span class="detector-dot dot-purple"></span><span>Both flagged</span><strong id="both-count">—</strong></div>
+              </div>
+              <p class="method-note">The IQR rule checks each numeric column on its own. Isolation Forest looks for unusual combinations across columns.</p>
+            </div>
+              <section class="evaluation-preview hidden" id="evaluation-preview" aria-labelledby="evaluation-preview-title">
+                <div class="section-kicker">LABELED PRACTICE DATA · 120 PLANTED VALUE ANOMALIES</div>
+                <h3 id="evaluation-preview-title">How well did the detectors find them?</h3>
+                <p>These in-sample precision, recall, and F1 scores compare detector flags with the practice dataset’s planted labels. They are a learning check, not a guarantee on new data.</p>
+                <div class="table-scroll"><table><thead id="evaluation-preview-head"></thead><tbody id="evaluation-preview-body"></tbody></table></div>
+              </section>
+              <div class="page-shortcuts">
+                <button class="shortcut-card" type="button" data-go-page="map"><span>01</span><strong>Explore the 3D data network</strong><small>Choose the axes, tune the links, and inspect records.</small><b>Explore ↗</b></button>
+                <button class="shortcut-card" type="button" data-go-page="report"><span>02</span><strong>Get the plain-language report</strong><small>Download a short summary you can share.</small><b>Open report ↗</b></button>
+              </div>
+            </section>
+
+            <section class="page-panel hidden" data-page-panel="map">
+            <div class="page-intro"><div class="section-kicker">A DIGITAL MAP OF YOUR DATA</div><h3>Explore the data network</h3><p>Each point is a record positioned by the selected X, Y, and Z numeric fields. Nearby records connect in 3D; flagged records keep their detector colors.</p></div>
+            <div class="visual-card">
+              <div class="visual-header">
+                <div><div class="section-kicker">REAL RECORDS · 3D FEATURE SPACE</div><h3>Three selected fields, connected</h3></div>
+                <div class="axis-controls">
+                  <label>X <select id="x-feature" aria-label="X axis feature"></select></label>
+                  <label>Y <select id="y-feature" aria-label="Y axis feature"></select></label>
+                  <label>Z <select id="z-feature" aria-label="Z axis feature"></select></label>
+                </div>
+              </div>
+              <div class="network-controls" id="network-controls">
+                <label class="connection-density" for="connection-count">
+                  <span>Connections per record</span>
+                  <input id="connection-count" type="range" min="1" max="4" value="2" step="1" aria-describedby="connection-count-value">
+                  <output id="connection-count-value" for="connection-count">2 nearest</output>
+                </label>
+                <label class="connection-toggle" for="show-connections">
+                  <input id="show-connections" type="checkbox" checked>
+                  <span>Show network links</span>
+                </label>
+                <span class="network-explainer">Links join nearest records by distance across the selected axes.</span>
+              </div>
+              <div class="chart-wrap">
+                <canvas id="scatter-chart" aria-label="Rotatable three-dimensional scatter plot" aria-describedby="chart-interaction-note" tabindex="0"></canvas>
+                <div class="chart-tooltip hidden" id="chart-tooltip" role="status"></div>
+                <div class="chart-empty hidden" id="chart-empty"></div>
+              </div>
+              <div class="chart-controls" id="chart-controls">
+                <span id="chart-interaction-note">Drag to rotate · use arrow keys · hover a point for its row</span>
+                <button class="chart-reset" id="reset-chart-view" type="button">Reset view</button>
+              </div>
+              <p class="chart-note" id="chart-note"></p>
+              <div class="axis-ranges" id="axis-ranges" aria-label="Visible numeric range for each axis"></div>
+              <div class="chart-legend" id="chart-legend">
+                <span><i class="legend-line"></i>Nearby records</span>
+                <span><i class="legend-dot legend-normal"></i>Not flagged</span>
+                <span><i class="legend-dot legend-iqr"></i>IQR only</span>
+                <span><i class="legend-dot legend-if"></i>Isolation Forest only</span>
+                <span><i class="legend-dot legend-both"></i>Both</span>
+              </div>
+            </div>
+            </section>
+
+            <section class="page-panel hidden" data-page-panel="records">
+            <div class="table-card">
+              <div class="table-heading">
+                <div><div class="section-kicker">A FEW ROWS TO REVIEW</div><h3>What caught the detectors’ eye</h3><p>See how the methods agree or differ, then explore the flagged records below.</p></div>
+              </div>
+              <section class="row-charts" aria-label="Interactive charts of flagged rows">
+                <article class="row-chart-card">
+                  <div class="row-chart-heading"><div><span class="section-kicker">DETECTOR AGREEMENT</span><h4>Flagged rows by group</h4></div><span class="chart-hint">Select a bar to filter rows</span></div>
+                  <svg id="row-bar-chart" class="row-bar-chart" role="group" aria-label="Bar chart of flagged rows by detector agreement"></svg>
+                </article>
+                <article class="row-chart-card">
+                  <div class="row-chart-heading"><div><span class="section-kicker">SHARE OF FLAGGED ROWS</span><h4>How the flags split</h4></div><span class="chart-hint">Select a slice to filter rows</span></div>
+                  <div class="row-pie-layout">
+                    <svg id="row-pie-chart" class="row-pie-chart" role="group" aria-label="Pie chart of flagged rows by detector agreement"></svg>
+                    <div class="row-pie-legend" id="row-pie-legend" aria-label="Chart categories"></div>
+                  </div>
+                </article>
+              </section>
+              <div class="table-tools">
+                <div class="filter-chips" role="group" aria-label="Filter suspicious rows">
+                  <button class="filter-chip active" type="button" data-filter="All">All <span id="filter-all-count"></span></button>
+                  <button class="filter-chip" type="button" data-filter="Both">Both <span id="filter-both-count"></span></button>
+                  <button class="filter-chip" type="button" data-filter="IQR only">IQR only <span></span></button>
+                  <button class="filter-chip" type="button" data-filter="Isolation Forest only">Forest only <span></span></button>
+                </div>
+                <input class="table-search" id="row-search" type="search" placeholder="Find a value…" aria-label="Search suspicious rows">
+                <label class="table-setting">Sort by
+                  <select id="table-sort">
+                    <option value="row_index">Row number</option>
+                  </select>
+                </label>
+                <button class="table-sort-order" id="table-sort-order" type="button" aria-label="Sort ascending" title="Sort ascending">↑</button>
+                <label class="table-setting">Rows
+                  <select id="table-page-size" aria-label="Rows per page">
+                    <option value="10">10</option>
+                    <option value="25" selected>25</option>
+                    <option value="50">50</option>
+                  </select>
+                </label>
+              </div>
+              <div class="table-scroll suspects-scroll"><table><thead id="suspects-head"></thead><tbody id="suspects-body"></tbody></table></div>
+              <div class="table-footer">
+                <span id="table-footer"></span>
+                <div class="table-pagination" id="table-pagination">
+                  <button class="page-button" id="table-prev" type="button" aria-label="Previous page">← Previous</button>
+                  <span id="table-page-status" aria-live="polite"></span>
+                  <button class="page-button" id="table-next" type="button" aria-label="Next page">Next →</button>
+                </div>
+              </div>
+            </div>
+            </section>
+
+            <section class="page-panel hidden" data-page-panel="report">
+              <div class="page-intro"><div class="section-kicker">A REPORT YOU CAN ACTUALLY READ</div><h3>Here’s the story in plain English</h3><p>Download a tidy PDF for your project notes, or ask a local AI model to explain the totals.</p></div>
+              <p class="report-summary" id="report-summary"></p>
+              <div class="report-actions">
+                <button class="download-button" id="download-pdf-button" type="button">↓ <span>Download easy-read PDF</span></button>
+                <button class="download-button" id="download-button" type="button">↓ <span>Save flagged rows as CSV</span></button>
+              </div>
+              <div class="evaluation-card hidden" id="evaluation-card">
+              <div class="section-kicker">A QUICK CHECK</div>
+              <h3>How did they do on the example?</h3>
+              <p id="evaluation-note">These scores use the example’s built-in labels and are a learning check, not a promise of performance on new data.</p>
+              <p class="evaluation-key">Precision is the share of flagged rows that were planted anomalies; recall is the share of planted anomalies caught; F1 balances both. Found, false alarms, and missed show counts.</p>
+              <div class="score-explorer">
+                <div class="score-explorer-heading">
+                  <div><div class="section-kicker">COMPARE DETECTORS</div><h4 id="score-metric-title">F1 score</h4></div>
+                  <div class="score-metric-tabs" role="group" aria-label="Choose a score to compare">
+                    <button class="score-tab" type="button" data-score-metric="precision" aria-pressed="false">Precision</button>
+                    <button class="score-tab" type="button" data-score-metric="recall" aria-pressed="false">Recall</button>
+                    <button class="score-tab active" type="button" data-score-metric="f1" aria-pressed="true">F1</button>
+                  </div>
+                </div>
+                <div class="score-bars" id="score-bars" role="group" aria-label="Detector score comparison"></div>
+                <div class="score-detail" id="score-detail" aria-live="polite"></div>
+              </div>
+              <div class="table-scroll"><table><thead id="evaluation-head"></thead><tbody id="evaluation-body"></tbody></table></div>
+            </div>
+            <div class="unlabeled-note hidden" id="unlabeled-note"><span>ⓘ</span><div><strong>No score for this dataset</strong><p>Only the built-in demo has labels this prototype can evaluate. Real or uploaded data may still contain unusual rows, but without trusted labels there’s no honest accuracy score.</p></div></div>
+            <div class="range-note" id="range-note"></div>
+              <section class="ai-card" aria-labelledby="ai-title">
+                <div class="ai-card-copy"><div class="section-kicker">AI-ASSISTED · RUNS ON YOUR COMPUTER</div><h3 id="ai-title">Plain-language explanation</h3><p>This is a short AI-written explanation of the totals—not a deep analysis of individual records, columns, or causes. AI wording can be incomplete or mistaken, so verify it against the charts and data.</p><p id="llm-status">Checking whether Ollama is ready on this computer…</p><button class="ai-refresh" id="llm-check-button" type="button">Check Ollama again</button></div>
+                <button class="ai-button" id="ai-explain-button" type="button" disabled>Explain these results <span>✦</span></button>
+                <p class="privacy-note">The AI explanation feature uses Ollama running locally. Analysis, charts, and PDF reports remain available if the Ollama service is not running. Only aggregate totals and, for practice data, evaluation scores are sent to it; student rows and filenames are never sent.</p>
+                <div class="ai-explanation hidden" id="ai-explanation" aria-live="polite"></div>
+                <div class="ai-error hidden" id="ai-error" role="alert"></div>
+              </section>
+            </section>
+          </div>
+          <section class="page-panel guide-page hidden" data-page-panel="guide">
+            <div class="page-intro"><div class="section-kicker">A QUICK FIELD GUIDE</div><h3>What this tool can — and can’t — tell you</h3><p>This project is a way to explore data, not a machine that decides whether a person or record is telling the truth.</p></div>
+            <div class="guide-grid">
+              <article><span class="guide-number">01</span><h4>Start with the health check</h4><p>Blanks, duplicate rows, and values outside known ranges are listed separately from detector results.</p></article>
+              <article><span class="guide-number">02</span><h4>Explore the 3D data network</h4><p>Choose any three numeric columns. Nearby rows connect in that feature space; adjust the link density, drag to rotate, or hover over a point to inspect its X, Y, and Z values.</p></article>
+              <article><span class="guide-number">03</span><h4>Use flags as clues</h4><p>IQR checks one column at a time. Isolation Forest looks for unusual combinations. Neither proves a record is wrong.</p></article>
+              <article><span class="guide-number">04</span><h4>Be honest about scores</h4><p>Only the practice dataset has trusted labels here. Real or uploaded data gets no accuracy score without a verified answer key.</p></article>
+            </div>
+          </section>
+        </section>
+      </section>
+      <footer><span>Made by a student, with curiosity and a lot of CSVs.</span><span>Built with Python, Pandas &amp; scikit-learn</span></footer>
+    </main>
+  </div>
+  <form id="pdf-form" class="hidden" action="/api/report.pdf" method="post" target="pdf-download-frame">
+    <input type="hidden" name="summary">
+  </form>
+  <iframe class="hidden" name="pdf-download-frame" title="PDF download"></iframe>
+  <script src="{{ url_for('static', filename='app.js', v=23) }}" defer></script>
+</body>
+</html>
